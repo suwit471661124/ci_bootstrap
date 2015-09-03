@@ -3,7 +3,8 @@
 
 $name = 'test_1_epm3mon192.168.175.114_TLS1-CGNL-NMS-WEB_55e56a65529cc_201509100930.log.lzo';
 
-//preg_match("/(\w+)_(\S+)([0-9]{12})/i" , $name, $match_arr);
+//preg_match("/(\w+)_(\S+)([0-9]{12})/i" , $name, $match_arr); // test1
+
 
 function getTextForNewDir($filename){
 	unset($data);
